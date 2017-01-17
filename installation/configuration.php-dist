@@ -62,7 +62,7 @@ class JConfig {
 	public $session_handler = 'database';
 	
 	//Uncomment this constructore to support using Environment variables
-	/*
+	
 	public function __construct(){
 	     $connectstr_dbhost = '';
 		$connectstr_dbname = '';
@@ -85,7 +85,7 @@ class JConfig {
         $this->db= $connectstr_dbname;
         
     }
-    */
+    
     
 }
 
